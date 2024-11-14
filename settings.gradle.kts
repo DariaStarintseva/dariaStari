@@ -1,6 +1,8 @@
 rootProject.name = "dariaStari"
 include("hw01-gradle")
 
+include("hw03-generics")
+
 
 pluginManagement {
     val jgitver: String by settings
