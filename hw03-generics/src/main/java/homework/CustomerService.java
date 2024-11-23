@@ -8,7 +8,8 @@ import java.util.TreeMap;
 
 public class CustomerService {
 
-    private final NavigableMap<Customer, String> customersMap = new TreeMap<>(Comparator.comparingLong(Customer::getScores));
+    private final NavigableMap<Customer, String> customersMap =
+            new TreeMap<>(Comparator.comparingLong(Customer::getScores));
 
     public Map.Entry<Customer, String> getSmallest() {
         return copyEntry(customersMap.firstEntry());
