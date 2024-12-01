@@ -1,8 +1,8 @@
 rootProject.name = "dariaStari"
 include("hw01-gradle")
-
 include("hw03-generics")
 include("hw06-annotations")
+include("hw08-gc")
 
 
 pluginManagement {
